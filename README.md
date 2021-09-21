@@ -9,5 +9,4 @@ Cluzters.ai
 ## Air Qualilty Prediction using random regressor
 
                                                                           
-                                                                          
-                                                ![image](https://user-images.githubusercontent.com/55590434/134112526-d347f6dd-5e27-47e9-94e5-01ebd0359f37.png)
+                                                                          ![image](https://user-images.githubusercontent.com/55590434/134112612-4de0aa41-c5c8-4016-8ee8-9e360b5ce262.png)
