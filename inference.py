@@ -1,11 +1,16 @@
 import pickle
+import numpy as np
+import pandas as pd
 
-pickle_in = open("Random_forest_regressor.pkl","rb")
-random_forest_regressor=pickle.load(pickle_in)
+model = pickle.load(open('model.pkl','rb'))
+class_names=['27.9','31.5','20.6','1011.5','8.5']
 
-def predict(Average_Temperature,Maximum_Temperature,Minimum_Temperature,Atm_pressure_at_sea_level,Average_wind_speed):
-
-
-  output=random_forest_regressor.predict([[ Average_Temperature,Maximum_Temperature,Minimum_Temperature, Atm_pressure_at_sea_level,Average_wind_speed]])
-
+def predict(df):
+  df = df[["T", "TM", "Tm", "SLP" ,"V"]]
+  
+  numpy_array=df.to_numpy()
+ 
+  predictions=model.predict(numpy_array)
+  
+  output=[class_names[class_predict] for class_predict in predictions]
   return output
