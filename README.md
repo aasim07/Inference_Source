@@ -4,7 +4,9 @@ Welcome to GitHub—where millions of developers work together on software. Read
 
 ![image](https://user-images.githubusercontent.com/55590434/134112345-a4a25f52-53bf-4513-be2c-fa34cb7f7d00.png)
 
-## Describe your project
+Cluzters.ai
+
+## Air Qualilty Prediction using random regressor
 
 You are currently viewing your project's **README** file. **_README_** files are like cover pages or elevator pitches for your project. They are written in plain text or [Markdown language](https://guides.github.com/features/mastering-markdown/), and usually include a paragraph describing the project, directions on how to use it, who authored it, and more.
 
