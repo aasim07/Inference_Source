@@ -10,4 +10,4 @@ Cluzters.ai
 
                                                                           
                                                                           
-                                                                          ![image](https://user-images.githubusercontent.com/55590434/134112526-d347f6dd-5e27-47e9-94e5-01ebd0359f37.png)
+                                                ![image](https://user-images.githubusercontent.com/55590434/134112526-d347f6dd-5e27-47e9-94e5-01ebd0359f37.png)
